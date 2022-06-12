@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IdleGame.Stats.Stat" Collapsed="true">
+    <Position X="2" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIACAIgIAEAABAAAABAAAAAABACQAIAAAQAAAAAQ=</HashCode>
+      <FileName>Assets\Script\Attribute\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Stats.StatInfluence" Collapsed="true">
+    <Position X="2" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAABAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Script\Attribute\StatInfluence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Stats.StatModifier" Collapsed="true">
+    <Position X="2" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Attribute\StatModifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.EnemyHandler" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="2.108" />
+        <Point X="6.26" Y="2.108" Type="JumpStart" />
+        <Point X="6.427" Y="2.108" Type="JumpEnd" />
+        <Point X="8.75" Y="2.108" />
+        <Point X="8.75" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEABgAAAAAIEAgAAAAEBAAAQAAAAAAAABAAABEAQAEA=</HashCode>
+      <FileName>Assets\Script\EnemyHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Game" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="2.146" />
+        <Point X="6.26" Y="2.146" Type="JumpStart" />
+        <Point X="6.427" Y="2.146" Type="JumpEnd" />
+        <Point X="6.75" Y="2.146" />
+        <Point X="6.75" Y="3.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQVACQAAEACAAECCAAgBQAAAAAAAAABUAAAEABAAEA=</HashCode>
+      <FileName>Assets\Script\Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="gameData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IdleGame.Inventory" Collapsed="true">
+    <Position X="16.25" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.583" />
+        <Point X="15.735" Y="4.583" />
+        <Point X="15.735" Y="7.125" />
+        <Point X="16.25" Y="7.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAgAgAAgAAAEQAAABAAAAFA=</HashCode>
+      <FileName>Assets\Script\Inventory\Inventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.InventorySlot" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAASACAAAAAgAAAAAAAAAgAAAAAACAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Script\Inventory\InventorySlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.InventoryView" Collapsed="true">
+    <Position X="16.25" Y="8.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.559" />
+        <Point X="15.735" Y="4.559" />
+        <Point X="15.735" Y="9.125" />
+        <Point X="16.25" Y="9.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Script\Inventory\InventoryView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.InventoryViewSlot" Collapsed="true">
+    <Position X="16.25" Y="9.75" Width="1.75" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.53" />
+        <Point X="15.735" Y="4.53" />
+        <Point X="15.735" Y="10.062" />
+        <Point X="16.25" Y="10.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAASAAAAABAQAAAAAEAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Inventory\InventoryViewSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.ItemInfluence" Collapsed="true">
+    <Position X="16.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Assets\Script\Item\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.ItemData" Collapsed="true">
+    <Position X="14.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAABAAAAAAAAAAAAAAAABAEAAAQAAECAAAAAgA=</HashCode>
+      <FileName>Assets\Script\Item\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.PropSpawner" Collapsed="true">
+    <Position X="13.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.572" />
+        <Point X="14.5" Y="4.572" />
+        <Point X="14.5" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABgAwAAAAEAAAAAAEAAAACAAAAAAAAAAAABACAAUQ=</HashCode>
+      <FileName>Assets\Script\Prop\PropSpawner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameData" Collapsed="true">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Assets\Script\GameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoadScene" Collapsed="true">
+    <Position X="12.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="2.152" />
+        <Point X="6.26" Y="2.152" Type="JumpStart" />
+        <Point X="6.427" Y="2.152" Type="JumpEnd" />
+        <Point X="13" Y="2.152" />
+        <Point X="13" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEIAAQoAQAAAAAIAACAAAAgAAIAAAABQAAAAAgEA=</HashCode>
+      <FileName>Assets\Script\LoadScene.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="2.12" />
+        <Point X="6.26" Y="2.12" Type="JumpStart" />
+        <Point X="6.427" Y="2.12" Type="JumpEnd" />
+        <Point X="17" Y="2.12" />
+        <Point X="17" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Prop" Collapsed="true">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.555" />
+        <Point X="12.75" Y="4.555" />
+        <Point X="12.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQBBAAAAAAAAAAAAAAAAAAAAAAAAQAEAAIAAQAAAEQ=</HashCode>
+      <FileName>Assets\Script\Prop\Prop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Serialization" Collapsed="true">
+    <Position X="14" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAACAAAAAAAAAACAAAAAAAAAAAEEAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Serialization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Trigger" Collapsed="true">
+    <Position X="22.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="2.125" />
+        <Point X="6.26" Y="2.125" Type="JumpStart" />
+        <Point X="6.427" Y="2.125" Type="JumpEnd" />
+        <Point X="22.25" Y="2.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAAGAACCAABAAAAAAAJAAAAAAmAAABAAAAiAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Trigger\Trigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TriggerEvents" Collapsed="true">
+    <Position X="22.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="2.097" />
+        <Point X="6.26" Y="2.097" Type="JumpStart" />
+        <Point X="6.427" Y="2.097" Type="JumpEnd" />
+        <Point X="21.875" Y="2.097" />
+        <Point X="21.875" Y="3.125" />
+        <Point X="22.25" Y="3.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Trigger\TriggerEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FloatingText" Collapsed="true">
+    <Position X="21" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.58" />
+        <Point X="20.63" Y="4.58" />
+        <Point X="20.63" Y="7.125" />
+        <Point X="21" Y="7.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAgAAQAAAAIAAAAAAAAAAAQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\UI\FloatingText.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HealthBar" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.612" />
+        <Point X="11.25" Y="4.612" />
+        <Point X="11.25" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgCAEAAAAAAA=</HashCode>
+      <FileName>Assets\Script\UI\HealthBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Profile.PlayerProfile" Collapsed="true">
+    <Position X="18.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAQgQAAAABAAAABAAAAAEEEACAAkYAgAABAgAA=</HashCode>
+      <FileName>Assets\Script\PlayerProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Profile.ProfileSlot" Collapsed="true">
+    <Position X="18.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="2.141" />
+        <Point X="6.26" Y="2.141" Type="JumpStart" />
+        <Point X="6.427" Y="2.141" Type="JumpEnd" />
+        <Point X="20.15" Y="2.141" />
+        <Point X="20.15" Y="3.875" />
+        <Point X="19.75" Y="3.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAEAgIAAAEAAQCAIgAAAAwBgBAAAAAAACAAQAAAAAEA=</HashCode>
+      <FileName>Assets\Script\UI\ProfileSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.UI.Ingame.ButtonBar" Collapsed="true">
+    <Position X="23.75" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.543" />
+        <Point X="23.125" Y="4.543" />
+        <Point X="23.125" Y="7.188" />
+        <Point X="23.75" Y="7.188" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAACQAEAEA=</HashCode>
+      <FileName>Assets\Script\UI\ButtonBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.UI.Ingame.InfoSection" Collapsed="true">
+    <Position X="18.75" Y="6.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.542" />
+        <Point X="19.5" Y="4.542" />
+        <Point X="19.5" Y="6.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAEA=</HashCode>
+      <FileName>Assets\Script\UI\InfoSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.UI.Ingame.InfoSlot" Collapsed="true">
+    <Position X="18.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.555" />
+        <Point X="18.307" Y="4.555" />
+        <Point X="18.307" Y="8.375" />
+        <Point X="18.75" Y="8.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAgAAAQAAAAAAAgACAAuBAAAAgQAAAAEAAEA=</HashCode>
+      <FileName>Assets\Script\UI\InfoSlot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.UI.Ingame.InfoSlotWithButton" Collapsed="true">
+    <Position X="18.75" Y="9.5" Width="1.75" />
+    <InheritanceLine Type="IdleGame.UI.Ingame.InfoSlot" FixedToPoint="true">
+      <Path>
+        <Point X="19.5" Y="8.691" />
+        <Point X="19.5" Y="9.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAABgAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\UI\InfoSlotWithButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.UI.GamePanel" Collapsed="true">
+    <Position X="23.75" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.594" />
+        <Point X="23.136" Y="4.594" />
+        <Point X="23.136" Y="8.312" />
+        <Point X="23.75" Y="8.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAABQAABAAAAAQAAAAAAAAAAAAQAAQAAAAABAAA=</HashCode>
+      <FileName>Assets\Script\UI\GamePanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.UI.UIBar" Collapsed="true">
+    <Position X="21" Y="8" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.565" />
+        <Point X="20.63" Y="4.565" />
+        <Point X="20.63" Y="8.312" />
+        <Point X="21" Y="8.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IBABAIAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAABEA=</HashCode>
+      <FileName>Assets\Script\UI\UIBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Unit.Enemy" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAABAAAgAAACAAAAAAAAAAAAMBQAAABMBAAAAAYAAA=</HashCode>
+      <FileName>Assets\Script\Unit\Enemy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Unit.Player" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABBEACQCgQQACTFEAAQBAAAAAMAACAAAIABAAAPIAAI=</HashCode>
+      <FileName>Assets\Script\Unit\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="playerStats" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="IdleGame.Unit.Unit" Collapsed="true">
+    <Position X="4.75" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.572" />
+        <Point X="5.5" Y="4.572" />
+        <Point X="5.5" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BBRDAAAAgCQCCSAAAAAAIIABCNREAAAMOBAggAEIAMA=</HashCode>
+      <FileName>Assets\Script\Unit\Unit.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="unitStats" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="IdleGame.Unit.Stats.PlayerStats" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAEAACUAAAxEAEABBAAIBIAAAACEioYAAAAACgAA=</HashCode>
+      <FileName>Assets\Script\Unit\PlayerStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IdleGame.Unit.Stats.UnitStats" Collapsed="true">
+    <Position X="8.5" Y="5.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true">
+      <Path>
+        <Point X="4" Y="1.441" />
+        <Point X="4" Y="4.572" />
+        <Point X="9.25" Y="4.572" />
+        <Point X="9.25" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>EAADAFASACKQCQEAUoAAhAIACAkAAgIgAAAAAiBACEA=</HashCode>
+      <FileName>Assets\Script\Unit\UnitStats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour" Collapsed="true">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UnityEngine.ScriptableObject" Collapsed="true">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="IDamagable" Collapsed="true">
+    <Position X="2" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Script\Unit\IDamagable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="IdleGame.Stats.StatType" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACAAAAEAACAAAAAAAAAAIACAoMAgIAAAAgAgAAIgA=</HashCode>
+      <FileName>Assets\Script\Attribute\Stat.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IdleGame.Stats.ModifierType" Collapsed="true">
+    <Position X="1.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Script\Attribute\StatModifier.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IdleGame.ItemType" Collapsed="true">
+    <Position X="1.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Script\Item\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IdleGame.ItemInfluencedValue" Collapsed="true">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAQAQAAAAAAAAAAQAAAAAAIAA=</HashCode>
+      <FileName>Assets\Script\Item\ItemData.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IdleGame.Unit.UnitState" Collapsed="true">
+    <Position X="1.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAIAAAAAIAAAACACAAAA=</HashCode>
+      <FileName>Assets\Script\Unit\Unit.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
