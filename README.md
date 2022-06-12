@@ -1,5 +1,5 @@
 <h1 align="center">Idle RPG</h1>
-<h2 align="center">Project form Final Exam at S4G</h2>
+<h2 align="center">Project from Final Exam at S4G</h2>
 
 <p align="center"><img src=/Readme/line2.png></p>
 <p align="center">Based on the game</p>
